@@ -12,7 +12,6 @@ db_config = {
     'port': 5433,
     'database': 'test',
     'min': 10,
-    'max': 10,
 }
 db_pool = None
 
