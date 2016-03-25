@@ -1,0 +1,4 @@
+service_cmd_line: ["/home/dr/devel/python_meetup/python_vs_erlang/erlang_vs_python/service_test/ping/_build/default/rel/ping/bin/ping", "foreground"]
+wrk_cmd_line: /home/dr/devel/wg/wrk/wrk -c 50 -d 60 --latency http://localhost:8888
+warmup_time: 1
+repeat_count: 5   
